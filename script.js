@@ -6,8 +6,6 @@ const getStart = function (value) {
     let number = Math.floor(1 + Math.random() * (100 + 1 - 1));
     let attempt = 10;
 
-    console.log(number);
-
     const isNumber = function(num) {
         if (num !== null && num.length > num.trim().length) {
             return false;
